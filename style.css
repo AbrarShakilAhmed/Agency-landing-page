@@ -171,4 +171,28 @@ footer li a {
   .testimonial-container {
     grid-template: 1fr / 1fr;
   }
+  .product-text h2 {
+    font-size: 22px;
+  }
+  .product {
+    display: grid;
+    grid-template: 50vw / 1fr 1fr;
+  }
+  .product-text {
+    padding: 10px;
+  }
+  .arrow {
+    display: none;
+  }
+  .hero h1 {
+    font-size: 42px;
+  }
+}
+@media (max-width: 576px) {
+  .product {
+    display: block;
+  }
+  .product-text {
+    padding: 50px 20px;
+  }
 }
