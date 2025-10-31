@@ -129,13 +129,12 @@ nav ul li a {
   margin-bottom: 10px;
 }
 .photo-gallery {
-  display: flex;
+  display: grid;
+  grid-template: 1fr / repeat(4, 1fr);
 }
 
 .photo-gallery img {
-  flex-grow: 1;
-  width: 200px;
-  height: 600px;
+  width: 100%;
 }
 
 footer {
@@ -165,5 +164,11 @@ footer li a {
   margin-top: 50px;
   img {
     margin: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .testimonial-container {
+    grid-template: 1fr / 1fr;
   }
 }
