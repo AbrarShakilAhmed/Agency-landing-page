@@ -134,7 +134,7 @@ nav ul li a {
 
 .photo-gallery img {
   flex-grow: 1;
-  width: 400px;
+  width: 200px;
   height: 600px;
 }
 
